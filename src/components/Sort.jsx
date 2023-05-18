@@ -3,7 +3,7 @@ import React from 'react';
 function Sort() {
   const [open, setOpen] = React.useState(false);
   const [selected, setSelected] = React.useState(0);
-  const list = ['Заказать химчистку', 'Заказать уборку', 'Наши цены'];
+  const list = ['Заказать химчистку', 'Заказать уборку'];
   const sortName = list[selected];
   const onClickListItem = (i) => {
     setSelected(i);

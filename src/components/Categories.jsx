@@ -2,7 +2,7 @@ import React from 'react';
 
 function Categories() {
   const [activeIndex, setActiveIndex] = React.useState(0);
-  const categories = ['Все о компании', 'Наши достижения', 'Контактные данные'];
+  const categories = ['Все о компании', 'Наши цены', 'Контактные данные'];
   const onClickCategory = (index) => {
     setActiveIndex(index);
   };
