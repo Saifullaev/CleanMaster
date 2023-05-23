@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="wrapper">
       <Header />
+      <h1>TEST</h1>
       <div className="content">
         <div className="container">
           <div className="content__top">
