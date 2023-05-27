@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const Container = () => {
+export const Container = () => {
   return (
     <div className="container">
       <h1>
@@ -15,14 +15,12 @@ const Container = () => {
         специалисты в других направлениях своевременно выполняют <br />
         монтажно-строительные работы, при этом соблюдая все необходимые
         <br />
-        меры безопасности.{' '}
+        меры безопасности.{" "}
       </p>
       <div className="buttons">
-        <button>Рассчитать стоимость</button>
-        <button>Вызвать мастера</button>
+        <button style={{ marginRight: "5px" }}>Рассчитать стоимость</button>
+        <button style={{ marginLeft: "5px" }}>Вызвать мастера</button>
       </div>
     </div>
   );
 };
-
-export default Container;

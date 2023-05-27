@@ -1,15 +1,14 @@
 import React from 'react';
 import './css/App.css';
-import Header from './components/Header';
-import Container from './components/Container';
-import Kartinatext from './components/Kartinatext';
+import Container from './components/container';
+import Header from './components/header';
 
 function App() {
   return (
     <div>
       <Header />
       <Container />
-      <Kartinatext />
+      {/* <Kartinatext /> */}
     </div>
   );
 }
