@@ -1,0 +1,80 @@
+.header {
+  background-color: hwb(0 87% 11%);
+  padding: 5px;
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 2px;
+  border-radius: 4px;
+}
+
+.header li {
+  font-size: 21px;
+  display: inline-flex;
+  margin-right: 20px;
+  padding-right: 20px;
+ padding-top: 5px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: -5px;
+  margin-bottom: -5px;
+  margin-top: -5px;
+}
+
+.logo img {
+  width: 80px; /* Задайте нужную ширину */
+  height: auto; /* Автоматический расчет высоты */
+  margin-right: 5px;
+}
+
+.container {
+  background-image: url(/src/assets/img/photo_2023-05-25_16-38-52.jpg);
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 100%;
+  width: 99%;
+}
+
+.centered-text {
+  font-size: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.container p {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+
+.container .buttons {
+  display: flex;
+  gap: 10px;
+  margin-left: 340px;
+  margin-bottom: 20px;
+}
+
+.container button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #2b65ec;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-color: #45a049;
+}
+
+.container button:focus {
+  outline: none;
+}
+
