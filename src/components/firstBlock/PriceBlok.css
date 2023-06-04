@@ -14,5 +14,10 @@
 
 .image img {
   width: 290px;
-  height: auto;
+  height: 20vh;
+}
+
+.slick-slider {
+  width: 500px;
+  height: 300px;
 }
