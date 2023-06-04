@@ -41,7 +41,7 @@ body {
 }
 
 .container {
-  background-image: url(/src/assets/img/photo_2023-05-25_16-38-52.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2016/01/26/11/09/design-1162241_1280.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 6px;
@@ -86,4 +86,50 @@ body {
 
 .container button:focus {
   outline: none;
+}
+
+.titleInfo {
+  font-size: 36px;
+      margin-bottom: 20px;
+      color:#f0f2f6;
+}
+
+.icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.containerInfo {
+  position: relative;
+  background-image: url('https://images.wallpaperscraft.ru/image/single/fon_piatna_sinij_69078_1280x720.jpg'); /* Путь к вашей фоновой картинке */
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.contentInfo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align:left;
+  color: #fff;
+}
+
+.description {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.logo {
+  width: 30px; /* Размер логотипа */
+  height: 30px;
+  margin-right: 5px; /* Отступ справа от логотипа */
+}
+
+.descriptionItem {
+  display: flex; /* Устанавливает элементы внутри .descriptionItem в ряд */
+  align-items: center; /* Выравнивает элементы по вертикали */
+  margin-bottom: 10px; /* Отступ снизу для .descriptionItem */
 }

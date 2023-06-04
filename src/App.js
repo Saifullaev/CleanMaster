@@ -2,6 +2,8 @@ import React from 'react';
 import './css/App.css';
 import Container from './components/container';
 import Header from './components/header';
+import Info from './components/info/Info';
+import Carta from './components/carta/Carta';
 import PriceBlok from './components/firstBlock/PriceBlok';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -24,6 +26,7 @@ function App() {
     <div>
       <Header />
       <Container />
+      <Info />
       <div>
         <h1>Наши цены по химчистке:</h1>
         <Slider {...settings}>
@@ -33,6 +36,7 @@ function App() {
           <PriceBlok image={divanFourth} price="1000 тенге." />
         </Slider>
       </div>
+      <Carta />
     </div>
   );
 }
