@@ -1,0 +1,23 @@
+.price-blok {
+  display: inline-block;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image {
+  margin-right: 20px;
+}
+
+.text {
+  font-size: 18px;
+}
+
+.image img {
+  width: 290px;
+  height: 20vh;
+}
+
+.slick-slider {
+  width: 500px;
+  height: 300px;
+}
