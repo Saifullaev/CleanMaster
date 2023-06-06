@@ -13,11 +13,11 @@
 }
 
 .image img {
-  width: 290px;
-  height: 20vh;
+  width: 100%;  
+  height: auto; /* Чтобы сохранить пропорции изображения, выставляем высоту в auto */
+  object-fit: cover; /* Это свойство определяет, как содержимое должно заполнять блок */
 }
 
 .slick-slider {
-  width: 500px;
-  height: 300px;
+  height: auto;
 }

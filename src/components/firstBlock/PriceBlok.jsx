@@ -1,10 +1,10 @@
-import React from 'react';
-import './PriceBlok.css';
+import React from "react";
+import "./PriceBlok.css";
 
 const PriceBlok = ({ image, price }) => {
   return (
-    <div className="price-blok">
-      <div className="image">
+    <div className="price-blok" style={{ width: "100%" }}>
+      <div className="image" style={{ width: "100%", height: "72vh" }}>
         <img src={image} alt="Product" />
       </div>
       <div className="text">
