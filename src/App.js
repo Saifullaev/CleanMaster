@@ -26,11 +26,11 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="app">
       <Header />
       <Container />
       <Info />
-      <div className="slider-container">
+      <div className="price-section">
         <h1>Наши цены по химчистке:</h1>
         <div className="slider-content">
           <Slider  {...settings}>

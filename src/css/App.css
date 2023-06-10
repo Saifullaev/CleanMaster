@@ -1,15 +1,19 @@
 body {
+  background-color: black;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 .header {
   background-color: #d1d7d7f6;
   padding: 5px;
   display: flex;
-  margin-top: 0px;
-  margin-bottom: 2px;
-  border-radius: 4px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  margin-right: 15px;
+  margin-left: 15px;
+  border-radius: 10px;
   justify-content: space-around;
 }
 
@@ -20,6 +24,7 @@ body {
   padding-right: 20px;
   padding-top: 5px;
 }
+
 .header li a {
   text-decoration: none;
   color: rgb(0, 0, 0);
@@ -28,15 +33,15 @@ body {
 .logo {
   display: flex;
   align-items: center;
-  margin-right: 10px;
-  margin-left: -5px;
-  margin-bottom: -5px;
-  margin-top: -5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  margin-top: 12px;
 }
 
 .logo img {
-  width: 80px; /* Задайте нужную ширину */
-  height: auto; /* Автоматический расчет высоты */
+  width: 80px;
+  height: auto;
   margin-right: 5px;
 }
 
@@ -44,9 +49,11 @@ body {
   background-image: url(https://cdn.pixabay.com/photo/2016/01/26/11/09/design-1162241_1280.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin-right: 15px;
+  margin-left: 15px;
   padding: 6px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 10px;
   height: 70vh;
   width: 99%;
 }
@@ -90,8 +97,8 @@ body {
 
 .titleInfo {
   font-size: 36px;
-      margin-bottom: 20px;
-      color:#f0f2f6;
+  margin-bottom: 20px;
+  color: #f0f2f6;
 }
 
 .icon {
@@ -101,7 +108,7 @@ body {
 
 .containerInfo {
   position: relative;
-  background-image: url('https://images.wallpaperscraft.ru/image/single/fon_piatna_sinij_69078_1280x720.jpg'); /* Путь к вашей фоновой картинке */
+  background-image: url('https://bogatyr.club/uploads/posts/2023-03/1679114258_bogatyr-club-p-khimchistka-fon-foni-oboi-2.jpg');
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -113,7 +120,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align:left;
+  text-align: left;
   color: #fff;
 }
 
@@ -123,9 +130,9 @@ body {
 }
 
 .logo {
-  width: 30px; /* Размер логотипа */
+  width: 30px;
   height: 30px;
-  margin-right: 5px; /* Отступ справа от логотипа */
+  margin-right: 5px;
 }
 
 .descriptionItem {

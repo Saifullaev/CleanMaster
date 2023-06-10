@@ -20,9 +20,12 @@ const Carta = () => {
 
     L.circleMarker([51.126721, 71.415727], { icon: redDotIcon })
       .addTo(map)
-      .bindPopup("Адрес: пр. Кабанбай батыра 36");
+      .bindPopup("Адрес: ул. Кабанбай батыра 36");
 
-    const bounds = [[51.123, 71.412], [51.13, 71.419]];
+    const bounds = [
+      [51.123, 71.412],
+      [51.13, 71.419],
+    ];
     map.fitBounds(bounds);
   }, []);
 
