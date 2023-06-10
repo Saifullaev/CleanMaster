@@ -6,8 +6,8 @@ body {
 }
 
 .header {
-  background-color: hwb(212 45% 5%);
-  padding: 0px;
+  background-color: #d1d7d7f6;
+  padding: 5px;
   display: flex;
   margin-top: 15px;
   margin-bottom: 5px;
@@ -27,7 +27,7 @@ body {
 
 .header li a {
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .logo {
@@ -136,73 +136,43 @@ body {
 }
 
 .descriptionItem {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
+  display: flex; /* Устанавливает элементы внутри .descriptionItem в ряд */
+  align-items: center; /* Выравнивает элементы по вертикали */
+  margin-bottom: 10px; /* Отступ снизу для .descriptionItem */
+}
+
+.click2Giz  {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: transform 0.2s;
+
+}
+.click2Giz:hover {
+  transform: scale(1.1);
+}
+
+.whatsApp {
+  font-weight: 700;
+  color:#2b65ec;
+}
+
+.cartaGeo {
+  color:#2b65ec;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.5;
+ 
+}
+
+.recviziti {
+  color:#2b65ec;
+  font-size:20px ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
 }
 
 
-@media (max-width: 576px) {
-  .header li {
-    font-size: 16px;
-    margin-right: 8px;
-    padding-right: 8px;
-    padding-top: 3px;
-  }
-
-  .centered-text {
-    font-size: 40px;
-  }
-
-  .container p {
-    font-size: 20px;
-    margin-bottom: 15px;
-  }
-
-  .container button {
-    padding: 8px 16px;
-    font-size: 16px;
-  }
-
-  .titleInfo {
-    font-size: 30px;
-    margin-bottom: 15px;
-  }
-
-  .icon {
-    font-size: 20px;
-    margin-bottom: 8px;
-  }
-
-  .description {
-    font-size: 20px;
-    margin-bottom: 3px;
-  }
-}
-
-@media (min-width: 577px) and (max-width: 992px) {
-  .header li {
-    font-size: 18px;
-    margin-right: 10px;
-    padding-right: 10px;
-    padding-top: 3px;
-  }
-}
-
-@media (min-width: 993px) and (max-width: 1200px) {
-  .header li {
-    font-size: 20px;
-    margin-right: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-  }
-}
-
-@media (min-width: 1201px) {
-  .header li {
-    font-size: 21px;
-    margin-right: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-  }
-}
