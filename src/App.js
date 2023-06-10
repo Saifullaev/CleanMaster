@@ -23,11 +23,11 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="app">
       <Header />
       <Container />
       <Info />
-      <div>
+      <div className="price-section">
         <h1>Наши цены по химчистке:</h1>
         <Slider {...settings}>
           <PriceBlok image={divan} price="5000 тенге." />
