@@ -6,15 +6,18 @@ const Carta = () => {
   useEffect(() => {
     const map = L.map("map").setView([51.126721, 71.415727], 12);
 
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      attribution: "© OpenStreetMap contributors",
-    }).addTo(map);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(
+      map
+    );
 
     L.marker([51.126721, 71.415727])
       .addTo(map)
-      .bindPopup("Адрес: ул. Примерная, 123");
+      .bindPopup("Адрес: ул. Кабанбай батыра 36");
 
-    const bounds = [[51.123, 71.412], [51.13, 71.419]];
+    const bounds = [
+      [51.123, 71.412],
+      [51.13, 71.419],
+    ];
     map.fitBounds(bounds);
   }, []);
 
@@ -28,7 +31,7 @@ const Carta = () => {
       <h1>Карта геолокации</h1>
       <div id="map" style={{ width: "400px", height: "400px" }}></div>
       <div>
-        <button onClick={handleNavigateToTugiz}>Перейти в Тугиз</button>
+        <button onClick={handleNavigateToTugiz}>Перейти в 2gis</button>
         <p>Реквизиты</p>
         {/* Добавьте другие реквизиты здесь */}
       </div>
