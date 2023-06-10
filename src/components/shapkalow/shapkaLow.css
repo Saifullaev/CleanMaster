@@ -1,0 +1,36 @@
+.shapkaLow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #d1d7d7f6;
+  height: 90px;
+}
+
+.logoLow img {
+  width: 100px;
+  height: 100px;
+}
+
+.navigationLow ul {
+  list-style-type: none;
+  display: flex;
+  font-size: large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.navigationLow ul li {
+  margin-right: 20px;
+ 
+}
+
+.navigationLow ul li:last-child {
+  margin-right: 0;
+}
+.shapkaLowInfo a {
+  color: rgb(0, 81, 255); /* Задайте желаемый цвет */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Задайте желаемый шрифт */
+  font-size: 20px; /* Задайте желаемый размер шрифта */
+  text-decoration: none; /* Убирает подчеркивание ссылок, если не нужно */
+}

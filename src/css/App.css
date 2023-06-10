@@ -4,7 +4,7 @@ body {
   box-sizing: border-box;
 }
 .header {
-  background-color: hwb(0 87% 11%);
+  background-color: #d1d7d7f6;
   padding: 5px;
   display: flex;
   margin-top: 0px;
@@ -22,7 +22,7 @@ body {
 }
 .header li a {
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .logo {
@@ -133,3 +133,39 @@ body {
   align-items: center; /* Выравнивает элементы по вертикали */
   margin-bottom: 10px; /* Отступ снизу для .descriptionItem */
 }
+
+.click2Giz  {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: transform 0.2s;
+
+}
+.click2Giz:hover {
+  transform: scale(1.1);
+}
+
+.whatsApp {
+  font-weight: 700;
+  color:#2b65ec;
+}
+
+.cartaGeo {
+  color:#2b65ec;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.5;
+ 
+}
+
+.recviziti {
+  color:#2b65ec;
+  font-size:20px ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+
