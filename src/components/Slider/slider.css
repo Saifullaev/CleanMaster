@@ -1,0 +1,90 @@
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 2s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 2s;
+  position: absolute;
+}
+
+.image {
+  height: 85vh;
+  width: 100%;
+  border-radius: 15px;
+}
+#prevButton {
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  z-index: 10;
+  /* оформление кнопки по вашему усмотрению */
+}
+
+#nextButton {
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  z-index: 10;
+  /* оформление кнопки по вашему усмотрению */
+}
+.slider-button {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  padding: 10px 20px;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 2em;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.slider-button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.slider-button:active {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.slider-button.prev {
+  left: 25px;
+}
+
+.slider-button.next {
+  right: 25px;
+}
+@media (max-width: 768px) {
+  .image {
+    height: 70vh;
+  }
+
+  .slider-button {
+    padding: 5px 10px;
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .image {
+    height: 50vh;
+  }
+
+  .slider-button {
+    padding: 3px 6px;
+    font-size: 1em;
+  }
+}
