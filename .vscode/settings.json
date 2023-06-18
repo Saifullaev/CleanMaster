@@ -38,7 +38,7 @@
   },
 
   "workbench.colorTheme": "Mokka",
-  "workbench.sideBar.location": "right",
+  "workbench.sideBar.location": "left",
   "workbench.iconTheme": "vscode-icons",
 
   "terminal.integrated.rendererType": "dom",

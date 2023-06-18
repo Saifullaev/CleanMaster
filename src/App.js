@@ -12,10 +12,13 @@ import divan from './components/firstBlock/compon/divan odin.jpg';
 import divanSecond from './components/firstBlock/compon/divan uglovoi.jpg';
 import divanThirt from './components/firstBlock/compon/kreslo.jpg';
 import divanFourth from './components/firstBlock/compon/pufic.jpg';
+import './components/firstBlock/PriceBlok.css';
+import ShapkaLow from './components/shapkalow/ShapkaLow';
+import './components/shapkalow/shapkaLow.css';
 
 function App() {
   const settings = {
-    dots: true,
+    dots:  true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -23,20 +26,23 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="app">
       <Header />
       <Container />
       <Info />
-      <div>
+      <div className="price-section">
         <h1>Наши цены по химчистке:</h1>
-        <Slider {...settings}>
-          <PriceBlok image={divan} price="5000 тенге." />
-          <PriceBlok image={divanSecond} price="5000 тенге." />
-          <PriceBlok image={divanThirt} price="3000 тенге." />
-          <PriceBlok image={divanFourth} price="1000 тенге." />
-        </Slider>
+        <div className="slider-content">
+          <Slider  {...settings}>
+            <PriceBlok image={divan} price="5000 тенге." />
+            <PriceBlok image={divanSecond} price="5000 тенге." />
+            <PriceBlok image={divanThirt} price="3000 тенге." />
+            <PriceBlok image={divanFourth} price="1000 тенге." />
+          </Slider>
+        </div>
       </div>
       <Carta />
+      <ShapkaLow/>
     </div>
   );
 }

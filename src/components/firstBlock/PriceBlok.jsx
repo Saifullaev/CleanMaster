@@ -8,7 +8,7 @@ const PriceBlok = ({ image, price }) => {
         <img src={image} alt="Product" />
       </div>
       <div className="text">
-        <h2>Цена: {price}</h2>
+        <h2 className='price'>Цена: {price}</h2>
       </div>
     </div>
   );

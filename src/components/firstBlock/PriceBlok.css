@@ -6,6 +6,7 @@
 
 .image {
   margin-right: 20px;
+ 
 }
 
 .text {
@@ -13,11 +14,32 @@
 }
 
 .image img {
-  width: 100%;  
-  height: auto; /* Чтобы сохранить пропорции изображения, выставляем высоту в auto */
-  object-fit: cover; /* Это свойство определяет, как содержимое должно заполнять блок */
+  width: 290px;
+  height: 20vh;
+  border-radius: 50px;
 }
 
 .slick-slider {
-  height: auto;
+  width: 500px;
+  height: 300px;
+ 
 }
+
+.slider-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.slider-content {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.price {
+  font-size: 12;
+  color:#2b65ec;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
